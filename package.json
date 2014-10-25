@@ -4,7 +4,8 @@
   "description": "Main webserver app for my websites ",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.10.0"
+    "express": "^4.10.0",
+    "express-vhost": "^0.1.1"
   },
   "devDependencies": {},
   "scripts": {
