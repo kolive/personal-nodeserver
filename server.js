@@ -11,7 +11,7 @@ var site = require("/home/kolive/kyleolive.ca/website.js").app;
 var staging = require("/home/kolive/staging.kyleolive.ca/website.js").app;
 
 main.use(site);
-//main.use(express.vhost("staging.kyleolive.ca", staging));
+main.use(express.vhost("staging.kyleolive.ca", staging));
 
 http.createServer(app).listen(80);
 https.createServer(options, app).listen(443);

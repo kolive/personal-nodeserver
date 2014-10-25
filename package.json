@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Main webserver app for my websites ",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.10.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
