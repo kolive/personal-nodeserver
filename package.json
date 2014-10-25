@@ -1,0 +1,26 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Main webserver app for my websites ",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolive/personal-nodeserver.git"
+  },
+  "keywords": [
+    "webserver",
+    "personal"
+  ],
+  "author": "Kyle Olive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolive/personal-nodeserver/issues"
+  },
+  "homepage": "https://github.com/kolive/personal-nodeserver"
+}
